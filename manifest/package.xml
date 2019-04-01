@@ -1,312 +1,432 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<Package xmlns="http://soap.sforce.com/2006/04/metadata"> 
-    <types> 
-        <members>*</members> 
-        <name>ApexClass</name>
-    </types> 
-    <types> 
-        <members>*</members> 
-        <name>ApexComponent</name> 
-    </types> 
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>          
-        <members>*</members>
-        <name>ApexTrigger</name> 
-    </types> 
-    <types> 
-        <name>CustomApplication</name> 
-        <members>*</members> 
-    </types>
-    <types> 
-        <name>AssignmentRules</name> 
-        <members>*</members>
-    </types>
-    <types>
-        <members>*</members> 
-        <name>AuraDefinitionBundle</name> 
-    </types>
-    <types>
-        <members>*</members>
-        <name>BrandingSet</name>
-    </types>
-    <types>
-        <name>AssignmentRule</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>Document</name> 
-        <members>*</members> 
-    </types>
-    <types>
-        <name>EmailTemplate</name>
-        <members>*</members> 
-    </types>
-    <types>
-        <name>EmailServicesFunction</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>EmbeddedServiceBranding</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>EmbeddedServiceLiveAgent</name>
-        <members>*</members>
-    </types> 
-    <types> 
-        <name>ExternalServiceRegistration</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>FeatureParameterBoolean</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>FeatureParameterDate</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>FeatureParameterInteger</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>FlexiPage</name> 
-        <members>*</members>  
-    </types>
-    <types>
-        <name>Flow</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>HomePagLayout</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>InstalledPackage</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>IntegrationHubSettings</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>IntegrationHubSettingsType</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>CustomLabel</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>Layout</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>LicenseDefinition</name>
-        <members>*</members>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomPermission</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomSetting</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
-        <name>CustomObject</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>CompactLayout</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>CustomField</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>FieldSet</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>ListView</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>RecordType</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WebLink</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>ValidationRule</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>PathAssistant</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>Profile</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>Queue</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>Role</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>Settings</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>CustomTab</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>Workflow</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WorkflowFlowAction</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WorkflowFieldUpdate</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WorkflowKnowledgePublish</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WorkflowTask</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WorkflowAlert</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WorkflowSend</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WorkflowOutboundMessage</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WorkflowRule</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>LicenseDefinition</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>LightningComponentBundle</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>LightningExperienceTheme</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>LiveChatAgentConfig</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>LiveChatButton</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>LiveChatSensitiveDataRule</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>NamedCredential</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>NetworkBranding</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>MatchingRule</name> 
-        <members>*</members> 
-    </types>
-    <types>
-        <name>PermissionSet</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>PermissionSetGroup</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>QuickAction</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>RemoteSiteSetting</name>
-        <members>*</members>
-    </types>
-    <types> 
-        <name>Report</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>StaticResource</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>UserCriteria</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WaveApplication</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WaveDashboard</name>
-        <members>*</members>
-    </types>
-    <types> 
-        <name>WaveDataflow</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WaveDataset</name>
-        <members>*</members>
-    </types>
-    <types> 
-        <name>WaveLens</name>
-        <members>*</members>
-    </types> 
-    <types>
-        <name>WaveRecipe</name>
-        <members>*</members>
-    </types>
-    <types>
-        <name>WaveTemplateBundle</name>
-        <members>*</members> 
-    </types>
-    <types>
-        <name>WaveXmd</name> 
-        <members>*</members> 
-    </types>
-    <version>45.0</version> 
-</Package> 
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>CustomApplication</name>
+    <members>standard__AppLauncher</members>
+    <members>standard__Chatter</members>
+    <members>standard__Community</members>
+    <members>standard__Content</members>
+    <members>standard__Insights</members>
+    <members>standard__LightningBolt</members>
+    <members>standard__LightningInstrumentation</members>
+    <members>standard__LightningSales</members>
+    <members>standard__LightningSalesConsole</members>
+    <members>standard__LightningService</members>
+    <members>standard__Marketing</members>
+    <members>standard__Platform</members>
+    <members>standard__Sales</members>
+    <members>standard__Service</members>
+    <members>standard__ServiceConsole</members>
+    <members>standard__Sites</members>
+  </types>
+  <types>
+    <name>AssignmentRules</name>
+    <members>Case</members>
+    <members>Lead</members>
+  </types>
+  <types>
+    <name>AssignmentRule</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>FlexiPage</name>
+    <members>LightningSalesConsole_UtilityBar</members>
+    <members>LightningService_UtilityBar</members>
+  </types>
+  <types>
+    <name>InstalledPackage</name>
+    <members>npe01</members>
+    <members>npe03</members>
+    <members>npe4</members>
+    <members>npe5</members>
+    <members>npo02</members>
+    <members>npsp</members>
+  </types>
+  <types>
+    <name>CustomLabels</name>
+    <members>CustomLabels</members>
+  </types>
+  <types>
+    <name>CustomLabel</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Account-Account %28Marketing%29 Layout</members>
+    <members>Account-Account %28Sales%29 Layout</members>
+    <members>Account-Account %28Support%29 Layout</members>
+    <members>Account-Account Layout</members>
+    <members>Asset-Asset Layout</members>
+    <members>AssetRelationship-Asset Relationship Layout</members>
+    <members>Campaign-Campaign Layout</members>
+    <members>CampaignMember-Campaign Member Page Layout</members>
+    <members>Case-Case %28Marketing%29 Layout</members>
+    <members>Case-Case %28Sales%29 Layout</members>
+    <members>Case-Case %28Support%29 Layout</members>
+    <members>Case-Case Layout</members>
+    <members>CaseClose-Close Case Layout</members>
+    <members>CommunityMemberLayout-Community Member Layout</members>
+    <members>ConsumptionRate-Consumption Rate Layout</members>
+    <members>ConsumptionSchedule-Consumption Schedule Layout</members>
+    <members>Contact-Contact %28Marketing%29 Layout</members>
+    <members>Contact-Contact %28Sales%29 Layout</members>
+    <members>Contact-Contact %28Support%29 Layout</members>
+    <members>Contact-Contact Layout</members>
+    <members>ContentVersion-Content Version Layout</members>
+    <members>Contract-Contract Layout</members>
+    <members>DandBCompany-D%26B Company Layout</members>
+    <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+    <members>EmailMessage-Email Message Layout</members>
+    <members>Event-Event Layout</members>
+    <members>Global-Global Layout</members>
+    <members>Goal-Goal Layout</members>
+    <members>GoalLink-Goal Link Layout</members>
+    <members>Idea-Idea Layout</members>
+    <members>JobTracker-Job Tracker Layout</members>
+    <members>JobTracker-Job Tracker Layout - Summer %2715</members>
+    <members>JobTracker-Job Tracker Layout - Winter %2716</members>
+    <members>Lead-Lead %28Marketing%29 Layout</members>
+    <members>Lead-Lead %28Sales%29 Layout</members>
+    <members>Lead-Lead %28Support%29 Layout</members>
+    <members>Lead-Lead Layout</members>
+    <members>Macro-Macro Layout</members>
+    <members>Metric-Completion Metric Layout</members>
+    <members>Metric-Metric Layout</members>
+    <members>MetricDataLink-Metric Data Link Layout</members>
+    <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+    <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+    <members>Opportunity-Opportunity %28Support%29 Layout</members>
+    <members>Opportunity-Opportunity Layout</members>
+    <members>OpportunityLineItem-Opportunity Product Layout</members>
+    <members>Order-Order Layout</members>
+    <members>OrderItem-Order Product Layout</members>
+    <members>Pricebook2-Price Book Layout</members>
+    <members>PricebookEntry-Price Book Entry Layout</members>
+    <members>Product2-Product Layout</members>
+    <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
+    <members>QuickText-Quick Text Layout</members>
+    <members>Recommendation-Recommendation Layout</members>
+    <members>Scorecard-Scorecard Layout</members>
+    <members>ScorecardAssociation-Scorecard Association Layout</members>
+    <members>ScorecardMetric-Scorecard Metric Layout</members>
+    <members>SocialPersona-Social Persona Layout</members>
+    <members>SocialPost-Social Post Layout</members>
+    <members>Solution-Solution Layout</members>
+    <members>Task-Task Layout</members>
+    <members>User-User Layout</members>
+    <members>UserProvAccount-User Provisioning Account Layout</members>
+    <members>UserProvisioningLog-User Provisioning Log Layout</members>
+    <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+    <members>WorkCoaching-Coaching Layout</members>
+    <members>WorkFeedback-Feedback Layout</members>
+    <members>WorkFeedback-Feedback Layout - Summer %2715</members>
+    <members>WorkFeedback-Feedback Layout - Winter %2716</members>
+    <members>WorkFeedbackQuestion-Feedback Question Layout</members>
+    <members>WorkFeedbackQuestion-Feedback Question Layout - Summer %2715</members>
+    <members>WorkFeedbackQuestion-Feedback Question Layout - Winter %2716</members>
+    <members>WorkFeedbackQuestionSet-Feedback Question Set Layout</members>
+    <members>WorkFeedbackQuestionSet-Feedback Question Set Layout - Summer %2715</members>
+    <members>WorkFeedbackQuestionSet-Feedback Question Set Layout - Winter %2716</members>
+    <members>WorkFeedbackRequest-Feedback Request Layout</members>
+    <members>WorkFeedbackRequest-Feedback Request Layout - Summer %2715</members>
+    <members>WorkFeedbackRequest-Feedback Request Layout - Winter %2716</members>
+    <members>WorkFeedbackTemplate-Feedback Template Layout</members>
+    <members>WorkPerformanceCycle-Performance Cycle Layout</members>
+    <members>WorkPerformanceCycle-Performance Cycle Layout - Summer %2715</members>
+    <members>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Account</members>
+    <members>TA_ValidationRuleBypassSettings__c</members>
+  </types>
+  <types>
+    <name>CompactLayout</name>
+    <members>Account.NPSP_Household_Account</members>
+    <members>Account.NPSP_Organization_Account</members>
+    <members>Account.npsp__Account_Compact_Layout</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Account.AccountNumber</members>
+    <members>Account.AccountSource</members>
+    <members>Account.Active__c</members>
+    <members>Account.AnnualRevenue</members>
+    <members>Account.BillingAddress</members>
+    <members>Account.CleanStatus</members>
+    <members>Account.CustomerPriority__c</members>
+    <members>Account.DandbCompanyId</members>
+    <members>Account.Description</members>
+    <members>Account.DunsNumber</members>
+    <members>Account.Email__c</members>
+    <members>Account.Fax</members>
+    <members>Account.Industry</members>
+    <members>Account.Jigsaw</members>
+    <members>Account.NaicsCode</members>
+    <members>Account.NaicsDesc</members>
+    <members>Account.Name</members>
+    <members>Account.NumberOfEmployees</members>
+    <members>Account.NumberofLocations__c</members>
+    <members>Account.OwnerId</members>
+    <members>Account.Ownership</members>
+    <members>Account.ParentId</members>
+    <members>Account.Phone</members>
+    <members>Account.Rating</members>
+    <members>Account.SLAExpirationDate__c</members>
+    <members>Account.SLASerialNumber__c</members>
+    <members>Account.SLA__c</members>
+    <members>Account.ShippingAddress</members>
+    <members>Account.Sic</members>
+    <members>Account.SicDesc</members>
+    <members>Account.Site</members>
+    <members>Account.TickerSymbol</members>
+    <members>Account.Tradestyle</members>
+    <members>Account.Type</members>
+    <members>Account.UpsellOpportunity__c</members>
+    <members>Account.Website</members>
+    <members>Account.YearStarted</members>
+    <members>Account.npe01__One2OneContact__c</members>
+    <members>Account.npe01__SYSTEMIsIndividual__c</members>
+    <members>Account.npe01__SYSTEM_AccountType__c</members>
+    <members>Account.npo02__AverageAmount__c</members>
+    <members>Account.npo02__Best_Gift_Year_Total__c</members>
+    <members>Account.npo02__Best_Gift_Year__c</members>
+    <members>Account.npo02__FirstCloseDate__c</members>
+    <members>Account.npo02__Formal_Greeting__c</members>
+    <members>Account.npo02__HouseholdPhone__c</members>
+    <members>Account.npo02__Informal_Greeting__c</members>
+    <members>Account.npo02__LargestAmount__c</members>
+    <members>Account.npo02__LastCloseDate__c</members>
+    <members>Account.npo02__LastMembershipAmount__c</members>
+    <members>Account.npo02__LastMembershipDate__c</members>
+    <members>Account.npo02__LastMembershipLevel__c</members>
+    <members>Account.npo02__LastMembershipOrigin__c</members>
+    <members>Account.npo02__LastOppAmount__c</members>
+    <members>Account.npo02__MembershipEndDate__c</members>
+    <members>Account.npo02__MembershipJoinDate__c</members>
+    <members>Account.npo02__NumberOfClosedOpps__c</members>
+    <members>Account.npo02__NumberOfMembershipOpps__c</members>
+    <members>Account.npo02__OppAmount2YearsAgo__c</members>
+    <members>Account.npo02__OppAmountLastNDays__c</members>
+    <members>Account.npo02__OppAmountLastYear__c</members>
+    <members>Account.npo02__OppAmountThisYear__c</members>
+    <members>Account.npo02__OppsClosed2YearsAgo__c</members>
+    <members>Account.npo02__OppsClosedLastNDays__c</members>
+    <members>Account.npo02__OppsClosedLastYear__c</members>
+    <members>Account.npo02__OppsClosedThisYear__c</members>
+    <members>Account.npo02__SYSTEM_CUSTOM_NAMING__c</members>
+    <members>Account.npo02__SmallestAmount__c</members>
+    <members>Account.npo02__TotalMembershipOppAmount__c</members>
+    <members>Account.npo02__TotalOppAmount__c</members>
+    <members>Account.npsp__Batch__c</members>
+    <members>Account.npsp__Funding_Focus__c</members>
+    <members>Account.npsp__Grantmaker__c</members>
+    <members>Account.npsp__Matching_Gift_Administrator_Name__c</members>
+    <members>Account.npsp__Matching_Gift_Amount_Max__c</members>
+    <members>Account.npsp__Matching_Gift_Amount_Min__c</members>
+    <members>Account.npsp__Matching_Gift_Annual_Employee_Max__c</members>
+    <members>Account.npsp__Matching_Gift_Comments__c</members>
+    <members>Account.npsp__Matching_Gift_Company__c</members>
+    <members>Account.npsp__Matching_Gift_Email__c</members>
+    <members>Account.npsp__Matching_Gift_Info_Updated__c</members>
+    <members>Account.npsp__Matching_Gift_Percent__c</members>
+    <members>Account.npsp__Matching_Gift_Phone__c</members>
+    <members>Account.npsp__Matching_Gift_Request_Deadline__c</members>
+    <members>Account.npsp__Membership_Span__c</members>
+    <members>Account.npsp__Membership_Status__c</members>
+    <members>Account.npsp__Number_of_Household_Members__c</members>
+    <members>TA_ValidationRuleBypassSettings__c.ByPassAllValidationRules__c</members>
+  </types>
+  <types>
+    <name>FieldSet</name>
+    <members>Account.npsp__BDE_Entry_FS</members>
+    <members>Account.npsp__BDE_List_FS</members>
+    <members>Account.npsp__Manage_Household_Custom</members>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>Account.AllAccounts</members>
+    <members>Account.Household_Accounts</members>
+    <members>Account.MyAccounts</members>
+    <members>Account.NewLastWeek</members>
+    <members>Account.NewThisWeek</members>
+    <members>Account.PlatinumandGoldSLACustomers</members>
+  </types>
+  <types>
+    <name>RecordType</name>
+    <members>Account.HH_Account</members>
+    <members>Account.Organization</members>
+  </types>
+  <types>
+    <name>WebLink</name>
+    <members>Account.Billing</members>
+    <members>Account.npsp__Manage_Household</members>
+    <members>Account.npsp__Recalculate_Rollups</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Analytics Cloud Integration User</members>
+    <members>Analytics Cloud Security User</members>
+    <members>Authenticated Website</members>
+    <members>CRM_Admin</members>
+    <members>CRM_User</members>
+    <members>Chatter External User</members>
+    <members>Chatter Free User</members>
+    <members>Chatter Moderator User</members>
+    <members>ContractManager</members>
+    <members>Cross Org Data Proxy User</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+    <members>Customer Community Login User</members>
+    <members>Customer Community Plus Login User</members>
+    <members>Customer Community Plus User</members>
+    <members>Customer Community User</members>
+    <members>Customer Portal Manager Custom</members>
+    <members>Customer Portal Manager Standard</members>
+    <members>External Identity User</members>
+    <members>Force%2Ecom - App Subscription User</members>
+    <members>Force%2Ecom - Free User</members>
+    <members>Gold Partner User</members>
+    <members>High Volume Customer Portal User</members>
+    <members>HighVolumePortal</members>
+    <members>Identity User</members>
+    <members>MarketingProfile</members>
+    <members>Partner App Subscription User</members>
+    <members>Partner Community Login User</members>
+    <members>Partner Community User</members>
+    <members>PlatformPortal</members>
+    <members>ReadOnly</members>
+    <members>Service User</members>
+    <members>Silver Partner User</members>
+    <members>SolutionManager</members>
+    <members>Standard</members>
+    <members>StandardAul</members>
+    <members>Work%2Ecom Only User</members>
+  </types>
+  <types>
+    <name>QuickAction</name>
+    <members>Case.LogACall</members>
+    <members>Case.NewChildCase</members>
+    <members>CollaborationGroup.NewGroupMember</members>
+    <members>CollaborationGroup.NewGroupRecord</members>
+    <members>FeedItem.NewTaskFromFeedItem</members>
+    <members>LogACall</members>
+    <members>NewAccount</members>
+    <members>NewCase</members>
+    <members>NewContact</members>
+    <members>NewEvent</members>
+    <members>NewGroup</members>
+    <members>NewLead</members>
+    <members>NewNote</members>
+    <members>NewOpportunity</members>
+    <members>NewTask</members>
+    <members>New_Household_Account</members>
+    <members>New_Organization</members>
+    <members>SendEmail</members>
+    <members>Task.Defer</members>
+    <members>Task.Defer_0</members>
+    <members>Task.EditDescription</members>
+    <members>Task.EditDescription_0</members>
+    <members>Task.UpdatePriority</members>
+    <members>Task.UpdatePriority_0</members>
+    <members>Task.UpdateStatus</members>
+    <members>Task.UpdateStatus_0</members>
+  </types>
+  <types>
+    <name>RemoteSiteSetting</name>
+    <members>ApexDevNet</members>
+    <members>Cicero</members>
+  </types>
+  <types>
+    <name>Role</name>
+    <members>CEO</members>
+    <members>CFO</members>
+    <members>COO</members>
+    <members>CRM_Admin</members>
+    <members>CRM_User</members>
+    <members>ChannelSalesTeam</members>
+    <members>CustomerSupportInternational</members>
+    <members>CustomerSupportNorthAmerica</members>
+    <members>DirectorChannelSales</members>
+    <members>DirectorDirectSales</members>
+    <members>EasternSalesTeam</members>
+    <members>InstallationRepairServices</members>
+    <members>MarketingTeam</members>
+    <members>SVPCustomerServiceSupport</members>
+    <members>SVPHumanResources</members>
+    <members>SVPSalesMarketing</members>
+    <members>Service_Manager</members>
+    <members>System_Admin</members>
+    <members>TA_Admin</members>
+    <members>VPInternationalSales</members>
+    <members>VPMarketing</members>
+    <members>VPNorthAmericanSales</members>
+    <members>WesternSalesTeam</members>
+  </types>
+  <types>
+    <name>Settings</name>
+    <members>Account</members>
+    <members>Activities</members>
+    <members>Address</members>
+    <members>BusinessHours</members>
+    <members>Case</members>
+    <members>Company</members>
+    <members>Contract</members>
+    <members>Entitlement</members>
+    <members>FieldService</members>
+    <members>FileUploadAndDownloadSecurity</members>
+    <members>Forecasting</members>
+    <members>Ideas</members>
+    <members>IoT</members>
+    <members>Knowledge</members>
+    <members>LiveAgent</members>
+    <members>Macro</members>
+    <members>Mobile</members>
+    <members>Name</members>
+    <members>OmniChannel</members>
+    <members>Opportunity</members>
+    <members>Order</members>
+    <members>OrgPreference</members>
+    <members>PathAssistant</members>
+    <members>Product</members>
+    <members>Quote</members>
+    <members>Search</members>
+    <members>Security</members>
+  </types>
+  <types>
+    <name>Workflow</name>
+    <members>Contact</members>
+    <members>Opportunity</members>
+  </types>
+  <types>
+    <name>WorkflowFieldUpdate</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowKnowledgePublish</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowTask</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowAlert</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowSend</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowOutboundMessage</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>WorkflowRule</name>
+    <members>*</members>
+  </types>
+  <version>45.0</version>
+</Package>
