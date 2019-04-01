@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <name>CustomApplication</name>
-    <members>standard__AppLauncher</members>
-    <members>standard__Chatter</members>
-    <members>standard__Community</members>
-    <members>standard__Content</members>
-    <members>standard__Insights</members>
-    <members>standard__LightningBolt</members>
-    <members>standard__LightningInstrumentation</members>
-    <members>standard__LightningSales</members>
-    <members>standard__LightningSalesConsole</members>
-    <members>standard__LightningService</members>
-    <members>standard__Marketing</members>
-    <members>standard__Platform</members>
-    <members>standard__Sales</members>
-    <members>standard__Service</members>
-    <members>standard__ServiceConsole</members>
-    <members>standard__Sites</members>
-  </types>
-  <types>
     <name>AssignmentRules</name>
     <members>Case</members>
     <members>Lead</members>
@@ -29,18 +10,16 @@
     <members>*</members>
   </types>
   <types>
+    <name>DuplicateRule</name>
+    <members>Account.Standard_Account_Duplicate_Rule</members>
+    <members>Account.TA_Account_Duplicate_Check</members>
+    <members>Contact.Standard_Contact_Duplicate_Rule</members>
+    <members>Lead.Standard_Lead_Duplicate_Rule</members>
+  </types>
+  <types>
     <name>FlexiPage</name>
     <members>LightningSalesConsole_UtilityBar</members>
     <members>LightningService_UtilityBar</members>
-  </types>
-  <types>
-    <name>InstalledPackage</name>
-    <members>npe01</members>
-    <members>npe03</members>
-    <members>npe4</members>
-    <members>npe5</members>
-    <members>npo02</members>
-    <members>npsp</members>
   </types>
   <types>
     <name>CustomLabels</name>
@@ -51,93 +30,21 @@
     <members>*</members>
   </types>
   <types>
-    <name>Layout</name>
-    <members>Account-Account %28Marketing%29 Layout</members>
-    <members>Account-Account %28Sales%29 Layout</members>
-    <members>Account-Account %28Support%29 Layout</members>
-    <members>Account-Account Layout</members>
-    <members>Asset-Asset Layout</members>
-    <members>AssetRelationship-Asset Relationship Layout</members>
-    <members>Campaign-Campaign Layout</members>
-    <members>CampaignMember-Campaign Member Page Layout</members>
-    <members>Case-Case %28Marketing%29 Layout</members>
-    <members>Case-Case %28Sales%29 Layout</members>
-    <members>Case-Case %28Support%29 Layout</members>
-    <members>Case-Case Layout</members>
-    <members>CaseClose-Close Case Layout</members>
-    <members>CommunityMemberLayout-Community Member Layout</members>
-    <members>ConsumptionRate-Consumption Rate Layout</members>
-    <members>ConsumptionSchedule-Consumption Schedule Layout</members>
-    <members>Contact-Contact %28Marketing%29 Layout</members>
-    <members>Contact-Contact %28Sales%29 Layout</members>
-    <members>Contact-Contact %28Support%29 Layout</members>
-    <members>Contact-Contact Layout</members>
-    <members>ContentVersion-Content Version Layout</members>
-    <members>Contract-Contract Layout</members>
-    <members>DandBCompany-D%26B Company Layout</members>
-    <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
-    <members>EmailMessage-Email Message Layout</members>
-    <members>Event-Event Layout</members>
-    <members>Global-Global Layout</members>
-    <members>Goal-Goal Layout</members>
-    <members>GoalLink-Goal Link Layout</members>
-    <members>Idea-Idea Layout</members>
-    <members>JobTracker-Job Tracker Layout</members>
-    <members>JobTracker-Job Tracker Layout - Summer %2715</members>
-    <members>JobTracker-Job Tracker Layout - Winter %2716</members>
-    <members>Lead-Lead %28Marketing%29 Layout</members>
-    <members>Lead-Lead %28Sales%29 Layout</members>
-    <members>Lead-Lead %28Support%29 Layout</members>
-    <members>Lead-Lead Layout</members>
-    <members>Macro-Macro Layout</members>
-    <members>Metric-Completion Metric Layout</members>
-    <members>Metric-Metric Layout</members>
-    <members>MetricDataLink-Metric Data Link Layout</members>
-    <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
-    <members>Opportunity-Opportunity %28Sales%29 Layout</members>
-    <members>Opportunity-Opportunity %28Support%29 Layout</members>
-    <members>Opportunity-Opportunity Layout</members>
-    <members>OpportunityLineItem-Opportunity Product Layout</members>
-    <members>Order-Order Layout</members>
-    <members>OrderItem-Order Product Layout</members>
-    <members>Pricebook2-Price Book Layout</members>
-    <members>PricebookEntry-Price Book Entry Layout</members>
-    <members>Product2-Product Layout</members>
-    <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
-    <members>QuickText-Quick Text Layout</members>
-    <members>Recommendation-Recommendation Layout</members>
-    <members>Scorecard-Scorecard Layout</members>
-    <members>ScorecardAssociation-Scorecard Association Layout</members>
-    <members>ScorecardMetric-Scorecard Metric Layout</members>
-    <members>SocialPersona-Social Persona Layout</members>
-    <members>SocialPost-Social Post Layout</members>
-    <members>Solution-Solution Layout</members>
-    <members>Task-Task Layout</members>
-    <members>User-User Layout</members>
-    <members>UserProvAccount-User Provisioning Account Layout</members>
-    <members>UserProvisioningLog-User Provisioning Log Layout</members>
-    <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-    <members>WorkCoaching-Coaching Layout</members>
-    <members>WorkFeedback-Feedback Layout</members>
-    <members>WorkFeedback-Feedback Layout - Summer %2715</members>
-    <members>WorkFeedback-Feedback Layout - Winter %2716</members>
-    <members>WorkFeedbackQuestion-Feedback Question Layout</members>
-    <members>WorkFeedbackQuestion-Feedback Question Layout - Summer %2715</members>
-    <members>WorkFeedbackQuestion-Feedback Question Layout - Winter %2716</members>
-    <members>WorkFeedbackQuestionSet-Feedback Question Set Layout</members>
-    <members>WorkFeedbackQuestionSet-Feedback Question Set Layout - Summer %2715</members>
-    <members>WorkFeedbackQuestionSet-Feedback Question Set Layout - Winter %2716</members>
-    <members>WorkFeedbackRequest-Feedback Request Layout</members>
-    <members>WorkFeedbackRequest-Feedback Request Layout - Summer %2715</members>
-    <members>WorkFeedbackRequest-Feedback Request Layout - Winter %2716</members>
-    <members>WorkFeedbackTemplate-Feedback Template Layout</members>
-    <members>WorkPerformanceCycle-Performance Cycle Layout</members>
-    <members>WorkPerformanceCycle-Performance Cycle Layout - Summer %2715</members>
-    <members>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</members>
+    <name>MatchingRules</name>
+    <members>Account</members>
+    <members>Lead</members>
+  </types>
+  <types>
+    <name>MatchingRule</name>
+    <members>*</members>
   </types>
   <types>
     <name>CustomObject</name>
     <members>Account</members>
+    <members>Case</members>
+    <members>Contact</members>
+    <members>Lead</members>
+    <members>Opportunity</members>
     <members>TA_ValidationRuleBypassSettings__c</members>
   </types>
   <types>
@@ -145,6 +52,11 @@
     <members>Account.NPSP_Household_Account</members>
     <members>Account.NPSP_Organization_Account</members>
     <members>Account.npsp__Account_Compact_Layout</members>
+    <members>Contact.npsp__Contact_Compact_Layout</members>
+    <members>Contact.npsp__NPSP_Contact_Compact_Layout</members>
+    <members>Opportunity.npsp__Donation_Compact_Layout</members>
+    <members>Opportunity.npsp__Membership_Compact_Layout</members>
+    <members>Opportunity.npsp__NPSP_Donation_Compact_Layout</members>
   </types>
   <types>
     <name>CustomField</name>
@@ -235,6 +147,255 @@
     <members>Account.npsp__Membership_Span__c</members>
     <members>Account.npsp__Membership_Status__c</members>
     <members>Account.npsp__Number_of_Household_Members__c</members>
+    <members>Case.AccountId</members>
+    <members>Case.AssetId</members>
+    <members>Case.BusinessHoursId</members>
+    <members>Case.ClosedDate</members>
+    <members>Case.Comments</members>
+    <members>Case.ContactEmail</members>
+    <members>Case.ContactFax</members>
+    <members>Case.ContactId</members>
+    <members>Case.ContactMobile</members>
+    <members>Case.ContactPhone</members>
+    <members>Case.Description</members>
+    <members>Case.EngineeringReqNumber__c</members>
+    <members>Case.IsClosedOnCreate</members>
+    <members>Case.IsEscalated</members>
+    <members>Case.Origin</members>
+    <members>Case.OwnerId</members>
+    <members>Case.ParentId</members>
+    <members>Case.PotentialLiability__c</members>
+    <members>Case.Priority</members>
+    <members>Case.Product__c</members>
+    <members>Case.Reason</members>
+    <members>Case.SLAViolation__c</members>
+    <members>Case.Status</members>
+    <members>Case.Subject</members>
+    <members>Case.SuppliedCompany</members>
+    <members>Case.SuppliedEmail</members>
+    <members>Case.SuppliedName</members>
+    <members>Case.SuppliedPhone</members>
+    <members>Case.Type</members>
+    <members>Contact.AccountId</members>
+    <members>Contact.AssistantName</members>
+    <members>Contact.AssistantPhone</members>
+    <members>Contact.Birthdate</members>
+    <members>Contact.CleanStatus</members>
+    <members>Contact.Department</members>
+    <members>Contact.Description</members>
+    <members>Contact.DoNotCall</members>
+    <members>Contact.Email</members>
+    <members>Contact.Fax</members>
+    <members>Contact.HasOptedOutOfEmail</members>
+    <members>Contact.HasOptedOutOfFax</members>
+    <members>Contact.HomePhone</members>
+    <members>Contact.Jigsaw</members>
+    <members>Contact.Languages__c</members>
+    <members>Contact.LastCURequestDate</members>
+    <members>Contact.LastCUUpdateDate</members>
+    <members>Contact.LeadSource</members>
+    <members>Contact.Level__c</members>
+    <members>Contact.MailingAddress</members>
+    <members>Contact.MobilePhone</members>
+    <members>Contact.Name</members>
+    <members>Contact.OtherAddress</members>
+    <members>Contact.OtherPhone</members>
+    <members>Contact.OwnerId</members>
+    <members>Contact.Phone</members>
+    <members>Contact.ReportsToId</members>
+    <members>Contact.Title</members>
+    <members>Contact.npe01__AlternateEmail__c</members>
+    <members>Contact.npe01__HomeEmail__c</members>
+    <members>Contact.npe01__Home_Address__c</members>
+    <members>Contact.npe01__Organization_Type__c</members>
+    <members>Contact.npe01__Other_Address__c</members>
+    <members>Contact.npe01__PreferredPhone__c</members>
+    <members>Contact.npe01__Preferred_Email__c</members>
+    <members>Contact.npe01__Primary_Address_Type__c</members>
+    <members>Contact.npe01__Private__c</members>
+    <members>Contact.npe01__Secondary_Address_Type__c</members>
+    <members>Contact.npe01__SystemAccountProcessor__c</members>
+    <members>Contact.npe01__Type_of_Account__c</members>
+    <members>Contact.npe01__WorkEmail__c</members>
+    <members>Contact.npe01__WorkPhone__c</members>
+    <members>Contact.npe01__Work_Address__c</members>
+    <members>Contact.npo02__AverageAmount__c</members>
+    <members>Contact.npo02__Best_Gift_Year_Total__c</members>
+    <members>Contact.npo02__Best_Gift_Year__c</members>
+    <members>Contact.npo02__FirstCloseDate__c</members>
+    <members>Contact.npo02__Formula_HouseholdMailingAddress__c</members>
+    <members>Contact.npo02__Formula_HouseholdPhone__c</members>
+    <members>Contact.npo02__Household_Naming_Order__c</members>
+    <members>Contact.npo02__Household__c</members>
+    <members>Contact.npo02__LargestAmount__c</members>
+    <members>Contact.npo02__LastCloseDateHH__c</members>
+    <members>Contact.npo02__LastCloseDate__c</members>
+    <members>Contact.npo02__LastMembershipAmount__c</members>
+    <members>Contact.npo02__LastMembershipDate__c</members>
+    <members>Contact.npo02__LastMembershipLevel__c</members>
+    <members>Contact.npo02__LastMembershipOrigin__c</members>
+    <members>Contact.npo02__LastOppAmount__c</members>
+    <members>Contact.npo02__MembershipEndDate__c</members>
+    <members>Contact.npo02__MembershipJoinDate__c</members>
+    <members>Contact.npo02__Naming_Exclusions__c</members>
+    <members>Contact.npo02__NumberOfClosedOpps__c</members>
+    <members>Contact.npo02__NumberOfMembershipOpps__c</members>
+    <members>Contact.npo02__OppAmount2YearsAgo__c</members>
+    <members>Contact.npo02__OppAmountLastNDays__c</members>
+    <members>Contact.npo02__OppAmountLastYearHH__c</members>
+    <members>Contact.npo02__OppAmountLastYear__c</members>
+    <members>Contact.npo02__OppAmountThisYearHH__c</members>
+    <members>Contact.npo02__OppAmountThisYear__c</members>
+    <members>Contact.npo02__OppsClosed2YearsAgo__c</members>
+    <members>Contact.npo02__OppsClosedLastNDays__c</members>
+    <members>Contact.npo02__OppsClosedLastYear__c</members>
+    <members>Contact.npo02__OppsClosedThisYear__c</members>
+    <members>Contact.npo02__SmallestAmount__c</members>
+    <members>Contact.npo02__Soft_Credit_Last_Year__c</members>
+    <members>Contact.npo02__Soft_Credit_This_Year__c</members>
+    <members>Contact.npo02__Soft_Credit_Total__c</members>
+    <members>Contact.npo02__Soft_Credit_Two_Years_Ago__c</members>
+    <members>Contact.npo02__SystemHouseholdProcessor__c</members>
+    <members>Contact.npo02__TotalMembershipOppAmount__c</members>
+    <members>Contact.npo02__TotalOppAmount__c</members>
+    <members>Contact.npo02__Total_Household_Gifts__c</members>
+    <members>Contact.npsp__Address_Verification_Status__c</members>
+    <members>Contact.npsp__Batch__c</members>
+    <members>Contact.npsp__Current_Address__c</members>
+    <members>Contact.npsp__Deceased__c</members>
+    <members>Contact.npsp__Do_Not_Contact__c</members>
+    <members>Contact.npsp__Exclude_from_Household_Formal_Greeting__c</members>
+    <members>Contact.npsp__Exclude_from_Household_Informal_Greeting__c</members>
+    <members>Contact.npsp__Exclude_from_Household_Name__c</members>
+    <members>Contact.npsp__First_Soft_Credit_Amount__c</members>
+    <members>Contact.npsp__First_Soft_Credit_Date__c</members>
+    <members>Contact.npsp__HHId__c</members>
+    <members>Contact.npsp__Largest_Soft_Credit_Amount__c</members>
+    <members>Contact.npsp__Largest_Soft_Credit_Date__c</members>
+    <members>Contact.npsp__Last_Soft_Credit_Amount__c</members>
+    <members>Contact.npsp__Last_Soft_Credit_Date__c</members>
+    <members>Contact.npsp__Number_of_Soft_Credits_Last_N_Days__c</members>
+    <members>Contact.npsp__Number_of_Soft_Credits_Last_Year__c</members>
+    <members>Contact.npsp__Number_of_Soft_Credits_This_Year__c</members>
+    <members>Contact.npsp__Number_of_Soft_Credits_Two_Years_Ago__c</members>
+    <members>Contact.npsp__Number_of_Soft_Credits__c</members>
+    <members>Contact.npsp__Primary_Affiliation__c</members>
+    <members>Contact.npsp__Primary_Contact__c</members>
+    <members>Contact.npsp__Soft_Credit_Last_N_Days__c</members>
+    <members>Contact.npsp__is_Address_Override__c</members>
+    <members>Lead.Address</members>
+    <members>Lead.AnnualRevenue</members>
+    <members>Lead.CampaignId</members>
+    <members>Lead.CleanStatus</members>
+    <members>Lead.Company</members>
+    <members>Lead.CompanyDunsNumber</members>
+    <members>Lead.CurrentGenerators__c</members>
+    <members>Lead.DandbCompanyId</members>
+    <members>Lead.Description</members>
+    <members>Lead.DoNotCall</members>
+    <members>Lead.Email</members>
+    <members>Lead.Fax</members>
+    <members>Lead.HasOptedOutOfEmail</members>
+    <members>Lead.HasOptedOutOfFax</members>
+    <members>Lead.Industry</members>
+    <members>Lead.Jigsaw</members>
+    <members>Lead.LastTransferDate</members>
+    <members>Lead.LeadSource</members>
+    <members>Lead.MobilePhone</members>
+    <members>Lead.Name</members>
+    <members>Lead.NumberOfEmployees</members>
+    <members>Lead.NumberofLocations__c</members>
+    <members>Lead.OwnerId</members>
+    <members>Lead.Phone</members>
+    <members>Lead.Primary__c</members>
+    <members>Lead.ProductInterest__c</members>
+    <members>Lead.Rating</members>
+    <members>Lead.SICCode__c</members>
+    <members>Lead.Status</members>
+    <members>Lead.Title</members>
+    <members>Lead.Website</members>
+    <members>Lead.npe01__Preferred_Email__c</members>
+    <members>Lead.npe01__Preferred_Phone__c</members>
+    <members>Lead.npsp__Batch__c</members>
+    <members>Lead.npsp__CompanyCity__c</members>
+    <members>Lead.npsp__CompanyCountry__c</members>
+    <members>Lead.npsp__CompanyPostalCode__c</members>
+    <members>Lead.npsp__CompanyState__c</members>
+    <members>Lead.npsp__CompanyStreet__c</members>
+    <members>Opportunity.AccountId</members>
+    <members>Opportunity.Amount</members>
+    <members>Opportunity.CampaignId</members>
+    <members>Opportunity.CloseDate</members>
+    <members>Opportunity.ContractId</members>
+    <members>Opportunity.CurrentGenerators__c</members>
+    <members>Opportunity.DeliveryInstallationStatus__c</members>
+    <members>Opportunity.Description</members>
+    <members>Opportunity.ExpectedRevenue</members>
+    <members>Opportunity.IqScore</members>
+    <members>Opportunity.IsPrivate</members>
+    <members>Opportunity.LeadSource</members>
+    <members>Opportunity.MainCompetitors__c</members>
+    <members>Opportunity.Name</members>
+    <members>Opportunity.NextStep</members>
+    <members>Opportunity.OrderNumber__c</members>
+    <members>Opportunity.OwnerId</members>
+    <members>Opportunity.Pricebook2Id</members>
+    <members>Opportunity.Probability</members>
+    <members>Opportunity.StageName</members>
+    <members>Opportunity.TotalOpportunityQuantity</members>
+    <members>Opportunity.TrackingNumber__c</members>
+    <members>Opportunity.Type</members>
+    <members>Opportunity.npe01__Amount_Outstanding__c</members>
+    <members>Opportunity.npe01__Amount_Written_Off__c</members>
+    <members>Opportunity.npe01__Contact_Id_for_Role__c</members>
+    <members>Opportunity.npe01__Do_Not_Automatically_Create_Payment__c</members>
+    <members>Opportunity.npe01__Is_Opp_From_Individual__c</members>
+    <members>Opportunity.npe01__Member_Level__c</members>
+    <members>Opportunity.npe01__Membership_End_Date__c</members>
+    <members>Opportunity.npe01__Membership_Origin__c</members>
+    <members>Opportunity.npe01__Membership_Start_Date__c</members>
+    <members>Opportunity.npe01__Number_of_Payments__c</members>
+    <members>Opportunity.npe01__Payments_Made__c</members>
+    <members>Opportunity.npe03__Recurring_Donation__c</members>
+    <members>Opportunity.npo02__CombinedRollupFieldset__c</members>
+    <members>Opportunity.npo02__systemHouseholdContactRoleProcessor__c</members>
+    <members>Opportunity.npsp__Acknowledgment_Date__c</members>
+    <members>Opportunity.npsp__Acknowledgment_Status__c</members>
+    <members>Opportunity.npsp__Ask_Date__c</members>
+    <members>Opportunity.npsp__Batch__c</members>
+    <members>Opportunity.npsp__Closed_Lost_Reason__c</members>
+    <members>Opportunity.npsp__Fair_Market_Value__c</members>
+    <members>Opportunity.npsp__Gift_Strategy__c</members>
+    <members>Opportunity.npsp__Grant_Contract_Date__c</members>
+    <members>Opportunity.npsp__Grant_Contract_Number__c</members>
+    <members>Opportunity.npsp__Grant_Period_End_Date__c</members>
+    <members>Opportunity.npsp__Grant_Period_Start_Date__c</members>
+    <members>Opportunity.npsp__Grant_Program_Area_s__c</members>
+    <members>Opportunity.npsp__Grant_Requirements_Website__c</members>
+    <members>Opportunity.npsp__Honoree_Contact__c</members>
+    <members>Opportunity.npsp__Honoree_Name__c</members>
+    <members>Opportunity.npsp__In_Kind_Description__c</members>
+    <members>Opportunity.npsp__In_Kind_Donor_Declared_Value__c</members>
+    <members>Opportunity.npsp__In_Kind_Type__c</members>
+    <members>Opportunity.npsp__Is_Grant_Renewal__c</members>
+    <members>Opportunity.npsp__Matching_Gift_Account__c</members>
+    <members>Opportunity.npsp__Matching_Gift_Employer__c</members>
+    <members>Opportunity.npsp__Matching_Gift_Status__c</members>
+    <members>Opportunity.npsp__Matching_Gift__c</members>
+    <members>Opportunity.npsp__Next_Grant_Deadline_Due_Date__c</members>
+    <members>Opportunity.npsp__Notification_Message__c</members>
+    <members>Opportunity.npsp__Notification_Preference__c</members>
+    <members>Opportunity.npsp__Notification_Recipient_Contact__c</members>
+    <members>Opportunity.npsp__Notification_Recipient_Information__c</members>
+    <members>Opportunity.npsp__Notification_Recipient_Name__c</members>
+    <members>Opportunity.npsp__Previous_Grant_Opportunity__c</members>
+    <members>Opportunity.npsp__Primary_Contact_Campaign_Member_Status__c</members>
+    <members>Opportunity.npsp__Primary_Contact__c</members>
+    <members>Opportunity.npsp__Qualified_Date__c</members>
+    <members>Opportunity.npsp__Recurring_Donation_Installment_Name__c</members>
+    <members>Opportunity.npsp__Recurring_Donation_Installment_Number__c</members>
+    <members>Opportunity.npsp__Requested_Amount__c</members>
+    <members>Opportunity.npsp__Tribute_Type__c</members>
     <members>TA_ValidationRuleBypassSettings__c.ByPassAllValidationRules__c</members>
   </types>
   <types>
@@ -242,6 +403,13 @@
     <members>Account.npsp__BDE_Entry_FS</members>
     <members>Account.npsp__BDE_List_FS</members>
     <members>Account.npsp__Manage_Household_Custom</members>
+    <members>Contact.npsp__BDE_Entry_FS</members>
+    <members>Contact.npsp__BDE_List_FS</members>
+    <members>Contact.npsp__ContactMergeFoundFS</members>
+    <members>Lead.npsp__BDE_Entry_FS</members>
+    <members>Lead.npsp__BDE_List_FS</members>
+    <members>Opportunity.npsp__BDE_Entry_FS_v2</members>
+    <members>Opportunity.npsp__BDE_List_FS_v2</members>
   </types>
   <types>
     <name>ListView</name>
@@ -251,59 +419,68 @@
     <members>Account.NewLastWeek</members>
     <members>Account.NewThisWeek</members>
     <members>Account.PlatinumandGoldSLACustomers</members>
+    <members>Case.AllClosedCases</members>
+    <members>Case.AllOpenCases</members>
+    <members>Case.MyCases</members>
+    <members>Case.MyOpenCases</members>
+    <members>Contact.AllContacts</members>
+    <members>Contact.BirthdaysThisMonth</members>
+    <members>Contact.MyContacts</members>
+    <members>Contact.NewLastWeek</members>
+    <members>Contact.NewThisWeek</members>
+    <members>Lead.AllOpenLeads</members>
+    <members>Lead.MyUnreadLeads</members>
+    <members>Lead.TodaysLeads</members>
+    <members>Lead.ViewCustom1</members>
+    <members>Lead.ViewCustom2</members>
+    <members>Opportunity.AllOpportunities</members>
+    <members>Opportunity.ClosingNextMonth</members>
+    <members>Opportunity.ClosingThisMonth</members>
+    <members>Opportunity.Default_Opportunity_Pipeline</members>
+    <members>Opportunity.MyOpportunities</members>
+    <members>Opportunity.NewLastWeek</members>
+    <members>Opportunity.NewThisWeek</members>
+    <members>Opportunity.Private</members>
+    <members>Opportunity.Won</members>
+    <members>Opportunity.npsp__To_Be_Acknowledged</members>
   </types>
   <types>
     <name>RecordType</name>
     <members>Account.HH_Account</members>
     <members>Account.Organization</members>
+    <members>Opportunity.NPSP_Default</members>
   </types>
   <types>
     <name>WebLink</name>
     <members>Account.Billing</members>
     <members>Account.npsp__Manage_Household</members>
     <members>Account.npsp__Recalculate_Rollups</members>
+    <members>Case.UpsellCrosssellOpportunity</members>
+    <members>Contact.npe4__Relationships_Viewer</members>
+    <members>Contact.npo02__Copy_Address_to_Household</members>
+    <members>Contact.npo02__Household</members>
+    <members>Contact.npsp__Merge_Contacts</members>
+    <members>Contact.npsp__Recalculate_Rollups</members>
+    <members>Opportunity.DeliveryStatus</members>
+    <members>Opportunity.npe01__Matching_Donation</members>
+    <members>Opportunity.npe01__New_Contact_Donation</members>
+    <members>Opportunity.npe01__New_Organization_Donation</members>
+    <members>Opportunity.npsp__Email_Acknowledgment</members>
+    <members>Opportunity.npsp__Email_Acknowledgments</members>
+    <members>Opportunity.npsp__Find_Matched_Gifts</members>
+    <members>Opportunity.npsp__Manage_Soft_Credits</members>
+    <members>Opportunity.npsp__Refresh_Name</members>
+  </types>
+  <types>
+    <name>BusinessProcess</name>
+    <members>Opportunity.NPSP_Default</members>
   </types>
   <types>
     <name>Profile</name>
     <members>Admin</members>
-    <members>Analytics Cloud Integration User</members>
-    <members>Analytics Cloud Security User</members>
-    <members>Authenticated Website</members>
     <members>CRM_Admin</members>
     <members>CRM_User</members>
-    <members>Chatter External User</members>
-    <members>Chatter Free User</members>
-    <members>Chatter Moderator User</members>
-    <members>ContractManager</members>
-    <members>Cross Org Data Proxy User</members>
-    <members>Custom%3A Marketing Profile</members>
-    <members>Custom%3A Sales Profile</members>
-    <members>Custom%3A Support Profile</members>
-    <members>Customer Community Login User</members>
-    <members>Customer Community Plus Login User</members>
-    <members>Customer Community Plus User</members>
-    <members>Customer Community User</members>
-    <members>Customer Portal Manager Custom</members>
-    <members>Customer Portal Manager Standard</members>
-    <members>External Identity User</members>
-    <members>Force%2Ecom - App Subscription User</members>
-    <members>Force%2Ecom - Free User</members>
-    <members>Gold Partner User</members>
-    <members>High Volume Customer Portal User</members>
-    <members>HighVolumePortal</members>
-    <members>Identity User</members>
-    <members>MarketingProfile</members>
-    <members>Partner App Subscription User</members>
-    <members>Partner Community Login User</members>
-    <members>Partner Community User</members>
-    <members>PlatformPortal</members>
-    <members>ReadOnly</members>
     <members>Service User</members>
-    <members>Silver Partner User</members>
-    <members>SolutionManager</members>
-    <members>Standard</members>
-    <members>StandardAul</members>
-    <members>Work%2Ecom Only User</members>
   </types>
   <types>
     <name>QuickAction</name>
@@ -371,7 +548,6 @@
     <members>Activities</members>
     <members>Address</members>
     <members>BusinessHours</members>
-    <members>Case</members>
     <members>Company</members>
     <members>Contract</members>
     <members>Entitlement</members>
@@ -388,11 +564,9 @@
     <members>OmniChannel</members>
     <members>Opportunity</members>
     <members>Order</members>
-    <members>OrgPreference</members>
     <members>PathAssistant</members>
     <members>Product</members>
     <members>Quote</members>
-    <members>Search</members>
     <members>Security</members>
   </types>
   <types>
